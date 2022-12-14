@@ -9,7 +9,7 @@ public class Main {
         int cat3 = 9;
         int cat4 = 10;
         int cat5 = 31;
-        double CatsAverage = (cat1+cat2+cat3+cat4+cat5)/5;
+        double CatsAverage = ((double)cat1+cat2+cat3+cat4+cat5)/5;
         double CatsResult = (cat1+cat2+cat3+cat4+cat5);
         System.out.println("Cереднє арифметичне команди " + team1 + " " + CatsAverage);
 
@@ -19,7 +19,7 @@ public class Main {
         int dog3 = 9;
         int dog4 = 10;
         int dog5 = 31;
-        double DogsAverege = (dog1+dog2+dog3+dog4+dog5)/5;
+        double DogsAverege = ((double)dog1+dog2+dog3+dog4+dog5)/5;
         double DogsResult = (dog1+dog2+dog3+dog4+dog5);
         System.out.println("Cереднє арифметичне команди " + team2 + " " + DogsAverege);
 
@@ -28,7 +28,7 @@ public class Main {
         } else if (CatsResult<DogsResult) {
             System.out.println("Перемогла команда " + team2 + " - набрала " + DogsResult + " очків");
         } else if (CatsResult == DogsResult) {
-            System.out.println("Нічия");
+            System.out.println("Нічия " + DogsResult + " " + CatsResult);
         }
 
     }
