@@ -28,7 +28,7 @@ public class Main {
         } else if (CatsResult<DogsResult) {
             System.out.println("Перемогла команда " + team2 + " - набрала " + DogsResult + " очків");
         } else if (CatsResult == DogsResult) {
-            System.out.println("Нічия");
+            System.out.println("Нічия" + DogsResult + " " + CatsResult);
         }
 
     }
